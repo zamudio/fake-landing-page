@@ -1,0 +1,48 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  background: url(../img/avi-richards-Z3ownETsdNQ-unsplash.jpg) no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #f8f9fa;
+}
+
+.buffer {
+  height: 2rem;
+}
+
+hr {
+  border-color: #e7630a;
+  border-width: 3px;
+  max-width: 65px;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #e7630a;
+  border-color: #e7630a;
+}
+
+.btn-primary:hover {
+  background-color: #e2491a;
+  border-color: #e2491a;
+  /* border-width: 2px; */
+}
+
+.btn-xl-custom {
+  padding: 1rem 2rem;
+}
